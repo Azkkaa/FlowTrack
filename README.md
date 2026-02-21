@@ -14,6 +14,8 @@ Proyek ini awalnya dikembangkan untuk memenuhi tugas mata kuliah di kampus. Namu
 * **Filter & Pencarian:** Sistem pencarian catatan keuangan berdasarkan tanggal tertentu.
 * **Responsive Design:** Tampilan yang nyaman diakses dari perangkat apa pun.
 * **Sistem Autentikasi:** Menggunakan Laravel Breeze untuk manajemen Login, Register, dan Password Reset yang aman dan responsif.
+* **Security Check:** Validasi kepemilikan data pada Controller; jika data tidak ditemukan atau bukan milik user, sistem otomatis mengembalikan response `404 Not Found`.
+* **ID Obfuscation:** Menggunakan library `vinkla/hashids` untuk menyembunyikan ID asli transaksi pada URL guna meningkatkan keamanan.
 
 ## 🛠️ Tech Stack
 Aplikasi ini dibangun menggunakan teknologi terbaru:

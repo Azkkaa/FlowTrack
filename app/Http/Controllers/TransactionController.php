@@ -121,11 +121,7 @@ class TransactionController extends Controller
     {
         $transactionId = $request->transaction;
 
-        $transaction = Transaction::find($transactionId);
-
-        if (!$transaction) {
-            return abort(404);
-        }
+        $transaction = Auth::user()->transactions()->findOrFail($transactionId);
 
         $transaction->delete();
         return back()->with('success', 'Data transaction has been deleted!');
