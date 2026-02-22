@@ -21,7 +21,9 @@ Proyek ini awalnya dikembangkan untuk memenuhi tugas mata kuliah di kampus. Namu
 Aplikasi ini dibangun menggunakan teknologi terbaru:
 * **Framework:** [Laravel 12.16.0] (Starter Kit: Laravel Breeze)
 * **Database:** MySQL
-* **Frontend:** 
+* **Libraries:**
+    * vinkla/hashids (untuk enkripsi ID transaksi)
+* **Frontend:**
     * Blade Templating Engine
     * Tailwind CSS (Styling)
     * Vanilla JavaScript (Interaktivitas)
