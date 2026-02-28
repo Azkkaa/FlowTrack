@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\TransactionController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -13,7 +14,7 @@ Route::middleware('auth')->group(function () {
     Route::prefix('dashboard')->group(function() {
         Route::get('/', [UserController::class, 'dashboard'])->name('dashboard');
 
-        Route::get('/search', [UserController::class, 'searchByDate'])->name('search-by-date');
+        Route::get('/search', [SearchController::class, 'byDate'])->name('search-by-date');
     });
 
 

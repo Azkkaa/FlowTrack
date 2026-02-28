@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Latar Belakang
+## 💡 Latar Belakang
 Proyek ini awalnya dikembangkan untuk memenuhi tugas mata kuliah di kampus. Namun, saya memutuskan untuk melakukan **rebuild** total guna memperbaiki struktur kode, mempercantik antarmuka (UI/UX), serta mengoptimalkan fitur-fitur yang ada agar lebih layak digunakan.
 
 ## ✨ Fitur Utama
