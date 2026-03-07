@@ -19,7 +19,7 @@ Proyek ini awalnya dikembangkan untuk memenuhi tugas mata kuliah di kampus. Namu
 
 ## 🛠️ Tech Stack
 Aplikasi ini dibangun menggunakan teknologi terbaru:
-* **Framework:** [Laravel 12.16.0] (Starter Kit: Laravel Breeze)
+* **Framework:** Laravel 12.x (Starter Kit: Laravel Breeze)
 * **Database:** MySQL
 * **Libraries:**
     * vinkla/hashids (untuk enkripsi ID transaksi)
@@ -74,5 +74,7 @@ Proyek ini sudah mencapai versi **Stable**. Namun, saya berencana untuk terus me
 - [ ] Grafik visualisasi pengeluaran bulanan.
 - [ ] Export data ke format Excel/PDF.
 
+![Version](https://img.shields.io/badge/version-1.0.2-blue) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+
 ---
-*Dibuat dengan semangat belajar oleh Azka Faza*
+*Dibuat dengan semangat belajar oleh Azkkaa*
