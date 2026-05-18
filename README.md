@@ -58,7 +58,7 @@
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://github.com/username-anda/flowtrack.git](https://github.com/username-anda/flowtrack.git)
+    git clone https://github.com/username-anda/flowtrack.git
     cd flowtrack
     ```
 
